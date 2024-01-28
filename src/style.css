@@ -1,1 +1,40 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Replace with your desired background color */
+  font-family: "Arial", sans-serif;
+  color: #333; /* Text color */
+}
+
+.container-fluid {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Background color with transparency */
+  padding: 20px;
+  border-radius: 30px;
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+#btn {
+  background-color: #3498db; /* Button color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#btn:hover {
+  background-color: #2980b9; /* Button color on hover */
+}
